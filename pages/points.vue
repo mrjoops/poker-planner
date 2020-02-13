@@ -1,11 +1,9 @@
 <template>
-  <v-sheet :color="getColor()">
-    <v-responsive :aspect-ratio="5/7">
-      <p
-        style="color:black; font-size:12em; text-align:center; line-height:100%; margin:revert;"
-      >{{ points }}</p>
-    </v-responsive>
+<div style="display:flex; justify-content:center;">
+  <v-sheet :color="getColor()"  style="height:3.5in;width:2.5in">
+    <p style="color:black; font-size:1.75in;  text-align:center; line-height:3.5in">{{ points }}</p>
   </v-sheet>
+</div>
 </template>
 
 <script>
